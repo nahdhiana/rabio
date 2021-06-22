@@ -1,9 +1,9 @@
-class weddingHall {
+class WeddingHall {
   var price;
   var name;
   var image;
 
-  weddingHall({
+  WeddingHall({
     required this.price,
     required this.name,
     required this.image,
@@ -11,34 +11,34 @@ class weddingHall {
 }
 
 var weddingHallProp = [
-  weddingHall(
+  WeddingHall(
       price: '100/event',
       name: 'Simple Hall',
       image: 'images/wedding-altar.jpg'),
-  weddingHall(
+  WeddingHall(
       price: '200/event',
       name: 'Italian Hall',
       image: 'images/italian-hall.jpg'),
-  weddingHall(
+  WeddingHall(
       price: '250/event',
       name: 'Banquet Hall',
       image: 'images/banquet-hall.jpg'),
-  weddingHall(
+  WeddingHall(
     price: '275/event',
     name: 'Hotel Hall',
     image: 'images/wedding-hall.jpg',
   ),
-  weddingHall(
+  WeddingHall(
     price: '300/event',
     name: 'Restaurant Hall',
     image: 'images/restaurant-hall.jpg',
   ),
-  weddingHall(
+  WeddingHall(
     price: '315/event',
     name: 'Classic Hall',
     image: 'images/white-daylight.jpg',
   ),
-  weddingHall(
+  WeddingHall(
       price: '400/event',
       name: 'Luxurius Hall',
       image: 'images/luxurious-hall.jpg'),

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_submission/pages/assets/AppBarAndNavBar.dart';
 import 'package:flutter_submission/pages/forgotPassword.dart';
-import 'package:flutter_submission/pages/home.dart';
 import 'package:flutter_submission/pages/register.dart';
 
 class LoginPage extends StatelessWidget {

@@ -51,7 +51,7 @@ class HomePage extends StatelessWidget {
   ListView weddingHallList() {
     return ListView.builder(
       itemBuilder: (cotext, index) {
-        weddingHall wedHallList = weddingHallProp[index];
+        WeddingHall wedHallList = weddingHallProp[index];
         return Padding(
           padding: EdgeInsets.all(5),
           child: Stack(
@@ -102,7 +102,7 @@ class HomePage extends StatelessWidget {
   ListView services() {
     return ListView.builder(
       itemBuilder: (context, index) {
-        servicesList srv = servicesProp[index];
+        ServicesList srv = servicesProp[index];
         return Card(
           child: Stack(
             children: [
